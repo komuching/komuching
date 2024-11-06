@@ -2,19 +2,7 @@
 TESTED: UBUNTU 22.04
 Fix: Bandwith Over Usage,, Script Ini Irit Bandwith Proxy..
 
-#Contoh Penulisan Proxy local_proxies.txt
-**http://ip:port** 
-atau
-**socks4://ip:port**
-atau
-**socks5://ip:port** 
-atau
-**http://user:pass@ip:port** 
-atau
-**socks4://user:pass@ip:port** 
-atau
-**socks5://user:pass@ip:port**
-
+#Contoh Penulisan Proxy ada di local_proxies.txt
 ----------------------------------
 
 INSTALASI:
