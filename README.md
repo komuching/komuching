@@ -14,7 +14,7 @@ sudo apt update && sudo apt upgrade -y
 #Clone:
 ```
 git clone https://github.com/komuching/rumputkucing.git
-cd rumpukucing
+cd rumputkucing
 
 ```
 #Install Python & Tools Tambahan :
