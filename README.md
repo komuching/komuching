@@ -13,6 +13,8 @@ sudo apt update && sudo apt upgrade -y
 ```
 
 #Install Python & Tools Tambahan :
+----------------------------------
+
 ```
 sudo apt install python3 python3-pip -y
 ```
@@ -29,6 +31,7 @@ echo "Masukan ID Grass" > id.txt
 ***Skip Ini Jika Ingin Melakukan Input Manual..
 
 #Lanjut Gan..
+----------------------------------
 
 #Buat File local_proxies.txt***
 #Ini untuk daftar proxy yang akan digunakan. Contoh:
@@ -39,6 +42,7 @@ echo "socks5://proxy2:port" >> local_proxies.txt
 #***Bisa Ditambahkan Manual Dengan Mengedit local_proxies.txt
 
 #Langsung Gas:
+----------------------------------
 
 ```
 python grass.py
@@ -51,6 +55,7 @@ screen
 ```
 python grass.py
 ```
+----------------------------------
 
 
 
