@@ -7,11 +7,16 @@ Fix: Bandwith Over Usage,, Script Ini Irit Bandwith Proxy..
 
 INSTALASI:
 
-#Lakukan Update:
+#Lakukan Update Dan Clone Repository:
 ```
 sudo apt update && sudo apt upgrade -y
 ```
+#Clone:
+```
+git clone https://github.com/komuching/rumpukucing.git
+cd rumputkucing
 
+```
 #Install Python & Tools Tambahan :
 ----------------------------------
 
