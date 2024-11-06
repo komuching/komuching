@@ -50,7 +50,7 @@ echo "socks5://proxy2:port" >> local_proxies.txt
 ----------------------------------
 
 ```
-python grass.py
+python3 grass.py
 ```
 #Jika Ingin Menjalankan Bot Di Latar Belakang Lakukan:
 ```
@@ -58,7 +58,7 @@ screen
 ```
 #lalu:
 ```
-python grass.py
+python3 grass.py
 ```
 ----------------------------------
 
