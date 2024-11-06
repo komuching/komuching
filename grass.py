@@ -6,10 +6,27 @@ import time
 import uuid
 import requests
 import shutil
-import sys  # Tambahkan ini untuk menggunakan sys
+import sys
 from loguru import logger
 from websockets_proxy import Proxy, proxy_connect
 from fake_useragent import UserAgent
+
+# Fungsi untuk menampilkan header ASCII text sederhana
+def print_header():
+    header = """
+888           8888888888       .d8888b.  
+888           888             d88P  Y88b 
+888           888             888    888 
+888           8888888         888        
+888           888             888  88888 
+888           888             888    888 
+888           888             Y88b  d88P 
+88888888      888              "Y8888P88 
+                                         
+                                         
+                                         
+    """
+    print(header)
 
 user_agent = UserAgent(os='windows', platforms='pc', browsers='chrome')
 random_user_agent = user_agent.random
@@ -87,9 +104,11 @@ async def connect_to_wss(socks5_proxy, user_id):
             logger.error(f"Gagal dengan proxy: {socks5_proxy}. Menunggu 15 detik sebelum mencoba lagi.")
             await asyncio.sleep(15)  # Tunggu 15 detik sebelum mencoba kembali koneksi dengan proxy yang sama
             continue  # Lanjutkan loop dan coba koneksi ulang setelah delay
-        
 
 async def main():
+    # Tampilkan header saat memulai
+    print_header()
+
     # Pilihan untuk input user ID
     print("Pilih metode input ID pengguna:")
     print("1. Input manual")
