@@ -23,9 +23,11 @@ cd rumpukucing
 ```
 sudo apt install python3 python3-pip -y
 ```
+-----------------------------
 ```
 pip install requests loguru websockets==12.0 fake_useragent websockets_proxy
 ```
+----------------------------
 ```
 pip install -r requirements.txt
 ```
