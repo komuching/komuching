@@ -1,8 +1,8 @@
-Grass Exclusive Bot By Komunitas Kucing Terbang
+#Grass Exclusive Bot By Komunitas Kucing Terbang
 TESTED: UBUNTU 22.04
 Fix: Bandwith Over Usage,, Script Ini Irit Bandwith Proxy..
-Contoh Penulisan Proxy local_proxies.txt
 
+#Contoh Penulisan Proxy local_proxies.txt
 **http://ip:port** 
 atau
 **socks4://ip:port**
