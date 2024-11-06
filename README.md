@@ -13,7 +13,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 #Clone:
 ```
-git clone https://github.com/komuching/rumpukucing.git
+git clone https://github.com/komuching/rumputkucing.git
 cd rumpukucing
 
 ```
